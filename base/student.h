@@ -8,7 +8,7 @@
 #include "student.h"
 #include <iostream>
 #include <string>
-
+#include <fstream>
 
 class Student {
 	
@@ -16,20 +16,31 @@ class Student {
 		std::string fName;
 		std::string lName;
 		Address address;
-		Date date;
+		Date dob;
+		Date grad;
 		int gpa;
 		int credit;
 
 	public:
 		Student();
 		~Student();
-		void setName(std::string name);
-		std::string getName();
+		void setfName(std::string fname);
+		std::string getfName();
+		void setlName(std::string lname);
+		std::string getlName();
 		void setGpa(int gpa);
 		int getGpa();
 		void setCredit(int credit);
 		int getCredit();
+	
+		void setAddress(Address address);
+		Address getAddress();
+	
+		void setDob(Date dob);
+		Date geDob();
 
+		void setGrad(Date grad);
+		Date getGrad();
 
 };
 #endif

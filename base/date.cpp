@@ -1,33 +1,46 @@
 //date.cpp
+#include <string>
+#include "date.h"
 
 
 Date(){
 
 
 }
-	
-void setMonth(int m){
+
+~Date(){
 
 
 }
-void setDay(int d){
+	
+void Date::setMonth(int m){
+	Date::month = m
 
+}
+void Date::setDay(int d){
+	Date::day = d;
 
 }	
-void setYear(int y){
-
-
-}
-int getMonth(){
-
+void Date::setYear(int y){
+	Date::year = y;
 
 }
-int getDay(){
-
+void Date::setDate(string date){
+	Date::date = date;
+}
+int Date::getMonth(){
+	return month;
 
 }
-int getYear(){
+int Date::getDay(){
+	return day;
 
+}
+int Date::getYear(){
+	return year;
 
+}
+std::string Date::getDate(){
+	return date;
 }
 

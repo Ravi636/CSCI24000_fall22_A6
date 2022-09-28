@@ -8,31 +8,34 @@ Student::Student(){
 
 }
 	
-~Student(){
+Student::~Student(){
 	
 
 }
-void setName(std::string name){
-	 Student::fName = name;
+void Student::setName(std::string fname){
+	 Student::fName = fname;
 
 }
-std::string getName(){
+std::string Student::getName(){
 	return fName;
 
 }
-void setGpa(int gpa){
+void Student::setlName(std::string lName){
+	Student::lName = lName;
+}
+void Student::setGpa(int gpa){
 	Student::gpa = gpa;
 
 }
-int getGpa(){
+int Student::getGpa(){
 	return gpa;
 
 }
-void setCredit(int credit){
-
+void Student::setCredit(int credit){
+	Student::credit = credit;
 
 }
 int getCredit(){
-
+	return credit;
 
 }
