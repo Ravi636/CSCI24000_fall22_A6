@@ -18,29 +18,33 @@ class Student {
 		Address address;
 		Date dob;
 		Date grad;
-		int gpa;
-		int credit;
+		std::string gpa;
+		std::string credit;
 
 	public:
 		Student();
 		~Student();
-		void setfName(std::string fname);
+		void setfName(string fname);
 		std::string getfName();
-		void setlName(std::string lname);
+		void setlName(string lname);
 		std::string getlName();
-		void setGpa(int gpa);
-		int getGpa();
-		void setCredit(int credit);
-		int getCredit();
+		void setGpa(string gpa);
+		std::string getGpa();
+		void setCredit(string credit);
+		std::string getCredit();
 	
 		void setAddress(Address address);
 		Address getAddress();
 	
 		void setDob(Date dob);
-		Date geDob();
+		Date getDob();
 
 		void setGrad(Date grad);
 		Date getGrad();
+		
+		void fullReport(ofstream&);
+
+		void shortReport(ofstream&);
 
 };
 #endif

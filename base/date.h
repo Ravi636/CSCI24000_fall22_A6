@@ -3,25 +3,26 @@
 #define Date_H_EXISTS
 #include <stdlib.h>
 #include <iostream>
+#include <string>
 
 class Date {
 
 
 	private:
-		int month;
-		int day;
-		int year;
+		std::string month;
+		std::string day;
+		std:: year;
 		std::string date;
 	public:
 		Date();
 		~Date();
-		void setMonth(int m);
-		void setDay(int d);		
-		void setYear(int y);
+		void setMonth(string m);
+		void setDay(string d);		
+		void setYear(string y);
 		void setDate(string date);
-		int getMonth();
-		int getDay();
-		int getYear();
+		std::string getMonth();
+		std::string getDay();
+		std::string getYear();
 		std::string setDate();
 		
 };

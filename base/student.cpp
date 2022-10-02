@@ -1,10 +1,17 @@
 // student.cpp
 
+#include "student.h"
+#include <iostream>
+#include <string>
+#include <fstream>
+#include <sstream>
+
+
 Student::Student(){
 	Student::fName = "";
 	Student::lName = "";
-	Student::gpa = 0;
-	Student::credit = 0;
+	Student::gpa = "";
+	Student::credit = "";
 
 }
 	
@@ -12,30 +19,32 @@ Student::~Student(){
 	
 
 }
-void Student::setName(std::string fname){
-	 Student::fName = fname;
+void Student::setfName(std::string name){
+	 Student::fName = name;
 
 }
 std::string Student::getName(){
 	return fName;
 
 }
-void Student::setlName(std::string lName){
-	Student::lName = lName;
+void Student::setlName(std::string name){
+	Student::lName = name;
 }
 void Student::setGpa(int gpa){
 	Student::gpa = gpa;
 
 }
-int Student::getGpa(){
+std::string Student::getGpa(){
 	return gpa;
 
 }
-void Student::setCredit(int credit){
+void Student::setCredit(std::string credit){
 	Student::credit = credit;
 
 }
-int getCredit(){
+std::string Student::getCredit(){
 	return credit;
 
 }
+
+

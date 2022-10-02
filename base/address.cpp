@@ -11,37 +11,40 @@ Address::Address(){
 Address::~Address(){
 
 }
-void setAddress1(string address){
+void Address::setAddress1(string address){
 	Address::address1 = address;
 }
-void setCity(string city){
+void Address::setAddress2(string address){
+	Address::address2 = address;
+}
+void Address::setCity(string city){
 	Address::city = city;
 
 }
-void setState(string state){
+void Address::setState(string state){
 	Address::state = state;
 }
-void setZip(string zip){
+void Address:setZip(string zip){
 	Address::zip = zip;
 
 }	
-std::string getAddress1(){
+std::string Address::getAddress1(){
 	return address1;
 
 }
-std::string getAddress2(){
+std::string Address::getAddress2(){
 	return address2;
 
 }
-std::string getCity(){
+std::string Address::getCity(){
 	return city;
 
 }
-std::string getState(){
+std::string Address::getState(){
 	return state;
 
 }
-int getZip(){
+std::string Address::getZip(){
 	return zip;
 
 }

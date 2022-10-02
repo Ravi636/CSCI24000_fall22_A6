@@ -4,7 +4,7 @@
 #define ADDRESS_H_EXISTS
 #include <stdlib.h>
 #include <string>
-
+#include <iostream>
 
 class Address {
 	private:
@@ -19,6 +19,7 @@ class Address {
 		Address();
 		~Address();
 		void setAddress1(std::address);
+		void setAddress2(std::address);
 		void setCity(std::city);
 		void setState(std::state);
 		void setZip(std::zip);	
