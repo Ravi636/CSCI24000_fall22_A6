@@ -13,6 +13,7 @@
 class Student {
 	
 	private:
+		
 		std::string fName;
 		std::string lName;
 		Address address;
@@ -20,10 +21,20 @@ class Student {
 		Date grad;
 		std::string gpa;
 		std::string credit;
+		Address sAddress1;
+		Address sAddress2;
+		Address sCity;
+		Address sState;
+		Address sZip;
+	       	Date dDob;
+		Date dGrad;
+
 
 	public:
+		
 		Student();
 		~Student();
+		
 		void setfName(string fname);
 		std::string getfName();
 		void setlName(string lname);
@@ -42,6 +53,25 @@ class Student {
 		void setGrad(Date grad);
 		Date getGrad();
 		
+		void set_sAddress1(Address address1);
+		void set_sAddress2(Address address2);
+		void set_sCity(Address city);
+		void set_sState(Address state);
+		void set_sZip(Address zip);
+
+		Address get_sAddress1();
+		Address get_sAddress2();
+		Address get_sCity();
+		Address get_sState();
+		Address get_sZip();
+
+		void set_dDob(Date dob);
+		void set_dGrad(Date grad);
+
+		Date get_dDob();
+		Date get_dGrad();
+
+
 		void fullReport(ofstream&);
 
 		void shortReport(ofstream&);

@@ -23,11 +23,13 @@ class Address {
 		void setCity(std::city);
 		void setState(std::state);
 		void setZip(std::zip);	
+	
 		std::string getAddress1();
 		std::string getAddress2();
 		std::string getCity();
 		std::string getState();
 		std::string getZip();
+	
 
 			
 };
