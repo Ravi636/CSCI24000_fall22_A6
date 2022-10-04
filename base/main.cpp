@@ -30,7 +30,7 @@ int main(){
 	
 	std::stringstream ss("");
 
-	studentFile.open("student.dat");
+	studentFile.open("students.dat");
 	shortFile.open("shortFile.txt");
 	fullFile.open("fullFile.txt");
 	
@@ -52,7 +52,7 @@ int main(){
 	Date *date = new Date[50];
 	
 	
-		
+	std::cout << "work";	
 	while(getline(studentFile, line)){
 		
 		ss.clear();
