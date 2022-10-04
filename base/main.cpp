@@ -29,7 +29,9 @@ int main(){
 	std::fstream studentFile;
 	std::ofstream shortFile;
 	std::ofstream fullFile;
+	
 	std::stringstream ss("");
+
 	studentFile.open("student.dat");
 	shotFile.open("shortFile.txt");
 	fullFile.open("fullFile.txt");
@@ -75,20 +77,43 @@ int main(){
 		stu[x].setfName(fName);
 		stu[x].setGpa(gpa);
 		stu[x].setCredit(credit);
+		
 		add[x].setAddress(address);
 		add[x].setAddress2(address2);
 		add[x].setCity(city);
 		add[x].setState(state);
 		add[x].setZip(zip);
+
+		stu[x].set_sAddress1(add[x]);
+		stu[x].set_sAddress2(add[x]);
+		stu[x].set_sCity(add[x]);
+		stu[x].set_sState(add[x]);
+		stu[x].set_sZip(add[x]);
+		stu[x].set_sAddress1(add[x]);
+		
 		date[x].setDob(dob);
-		stu[x].setGdate(grad);
-		stu[x].set( );
-		stu[x].set( );
+		date[x].setGdate(grad);
+		
+		stu[x].set_dDob(date[x]);
+		stu[x].set_dGrad(date[x]);
 
-
+		x++;
 
 	}//end while loop
+	int done;
 
+	for(int x = 0; x < SIZE; x++){
+		stu[x].fullReport(fullFile);
+		stu[x].shortReport(shortFile);
+		done++;
+	}
+
+	if(done > 0){
+		std::cout << "Reports are done" << std::endl;
+	}
+
+
+	studentFile.close();
 	fullFile.close();
 	shortFile.close();
 	delete[]stu;
@@ -98,4 +123,5 @@ int main(){
 	return 0;
 	
 }//end main
+
 

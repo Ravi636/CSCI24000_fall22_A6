@@ -92,9 +92,22 @@ Student::Date get_dGrad(){
 	return dGrad;
 }
 
-void Student::fullReport(ofstream full){
+void Student::fullReport(ofstream& full){
+
+	full << "Last Name: " << getlName() << "\nFirst Name: " << getfName() << std::endl;
+	full<<"Address: " << get_sAddress().get_Address1() << "\nAddress2: " << get_sAddress2().getAddress2()<<"\nCity: "
+	<<get_sCity().getCity()<<"\nState: "<<get_sState().getState()<<"\nZip: "<<get_sZip().getZip()
+	<<"\nDate of Birth: "<<get_sDob().getDate()<<"\nDate of Completion: " <<get_sGrad().Grad()
+	<<"\nGPA: "<<getGpa()<<"\nCredit Hours Completed: "<<getCredit()
+	<<"\n***************"<<endl;
 
 }
-void Student::shortReport(ofsteam s){
+
+void Student::shortReport(ofstream& s){
+
+	s<<"Last Name: " << getlName() << "\nFirst Name: " << getfName()<<"\n"<<end;
 
 }
+
+
+

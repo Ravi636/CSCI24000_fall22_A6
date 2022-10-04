@@ -11,7 +11,7 @@ class Date {
 	private:
 		std::string month;
 		std::string day;
-		std:: year;
+		std::string year;
 		std::string date;
 	public:
 		Date();
