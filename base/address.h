@@ -18,11 +18,12 @@ class Address {
 	
 		Address();
 		~Address();
-		void setAddress1(std::address);
-		void setAddress2(std::address);
-		void setCity(std::city);
-		void setState(std::state);
-		void setZip(std::zip);	
+		
+		void setAddress1(std::string address1);
+		void setAddress2(std::string address2);
+		void setCity(std::string city);
+		void setState(std::string state);
+		void setZip(std::string zip);	
 	
 		std::string getAddress1();
 		std::string getAddress2();

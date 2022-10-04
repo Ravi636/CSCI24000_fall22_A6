@@ -16,9 +16,6 @@ class Student {
 		
 		std::string fName;
 		std::string lName;
-		Address address;
-		Date dob;
-		Date grad;
 		std::string gpa;
 		std::string credit;
 		Address sAddress1;
@@ -35,13 +32,13 @@ class Student {
 		Student();
 		~Student();
 		
-		void setfName(string fname);
+		void setfName(std::string fname);
 		std::string getfName();
-		void setlName(string lname);
+		void setlName(std::string lname);
 		std::string getlName();
-		void setGpa(string gpa);
+		void setGpa(std::string gpa);
 		std::string getGpa();
-		void setCredit(string credit);
+		void setCredit(std::string credit);
 		std::string getCredit();
 	
 		void setAddress(Address address);
@@ -72,9 +69,9 @@ class Student {
 		Date get_dGrad();
 
 
-		void fullReport(ofstream&);
+		void fullReport(std::ofstream&);
 
-		void shortReport(ofstream&);
+		void shortReport(std::ofstream&);
 
 };
 #endif

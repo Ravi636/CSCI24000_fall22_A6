@@ -23,14 +23,17 @@ void Student::setfName(std::string name){
 	 Student::fName = name;
 
 }
-std::string Student::getName(){
+std::string Student::getfName(){
 	return fName;
 
 }
 void Student::setlName(std::string name){
 	Student::lName = name;
 }
-void Student::setGpa(int gpa){
+std::string Student::getlName(){
+	return lName;
+}
+void Student::setGpa(std::string gpa){
 	Student::gpa = gpa;
 
 }
@@ -47,34 +50,34 @@ std::string Student::getCredit(){
 
 }
 void Student::set_sAddress1(Address address1){
-	Student::sAddress1 = address1
+	Student::sAddress1 = address1;
 }
 void Student::set_sAddress2(Address address2){
-	Student::sAddress2 = address2
+	Student::sAddress2 = address2;
 }
 void Student::set_sCity(Address city){
 	Student::sCity = city;
 }
-void set_sState(Address state){
+void Student::set_sState(Address state){
 	Student::sState = state;
 }
-void set_sZip(Address zip){
+void Student::set_sZip(Address zip){
 	Student::sZip = zip;
 }
 
-Student::Address get_sAddress1(){
+Address Student::get_sAddress1(){
 	return sAddress1;
 }
-Student::Address get_sAddress2(){
+Address Student::get_sAddress2(){
 	return sAddress2;
 }
-Student::Address get_sCity(){
+Address Student::get_sCity(){
 	return sCity;
 }
-Student::Address get_sState(){
+Address Student::get_sState(){
 	return sState;
 }
-Student::Address get_sZip(){
+Address Student::get_sZip(){
 	return sZip;
 }
 
@@ -85,27 +88,33 @@ void Student::set_dGrad(Date grad){
 	Student::dGrad = grad;
 }
 
-Student::Date get_dDob(){
+Date Student::get_dDob(){
 	return dDob;
 }
-Student::Date get_dGrad(){
+Date Student::get_dGrad(){
 	return dGrad;
 }
 
-void Student::fullReport(ofstream& full){
+void Student::fullReport(std::ofstream& full){
 
-	full << "Last Name: " << getlName() << "\nFirst Name: " << getfName() << std::endl;
-	full<<"Address: " << get_sAddress().get_Address1() << "\nAddress2: " << get_sAddress2().getAddress2()<<"\nCity: "
-	<<get_sCity().getCity()<<"\nState: "<<get_sState().getState()<<"\nZip: "<<get_sZip().getZip()
-	<<"\nDate of Birth: "<<get_sDob().getDate()<<"\nDate of Completion: " <<get_sGrad().Grad()
-	<<"\nGPA: "<<getGpa()<<"\nCredit Hours Completed: "<<getCredit()
-	<<"\n***************"<<endl;
+	full << "Last Name: " << getlName() << std::endl
+	<< "First Name: " << getfName() << std::endl;
+	full<<"Address: " << get_sAddress1().getAddress1() << std::endl 
+	<< "Address2: " << get_sAddress2().getAddress2() << std::endl 
+	<< "City: "<< get_sCity().getCity() << std::endl
+	<< "State: " << get_sState().getState() << std::endl
+	<< "Zip: "<< get_sZip().getZip() << std::endl
+	<< "Date of Birth: " << get_dDob().getDate() << std::endl 
+	<< "Date of Completion: " << get_dGrad().getDate() << std::endl
+	<<"GPA: "<<getGpa() << std::endl
+	<<"Credit Hours Completed: "<<getCredit() << std::endl
+	<< "***************" << std::endl;
 
 }
 
-void Student::shortReport(ofstream& s){
+void Student::shortReport(std::ofstream& s){
 
-	s<<"Last Name: " << getlName() << "\nFirst Name: " << getfName()<<"\n"<<end;
+	s << "Last Name: " << getlName() << std::endl << "First Name: " << getfName() << std::endl;
 
 }
 

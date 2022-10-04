@@ -4,7 +4,10 @@
 #include <iostream>
 
 Date::Date(){
-
+	Date::month = "";
+	Date::day = "";
+	Date::year = "";
+	Date::date = "";
 
 }
 
@@ -13,19 +16,19 @@ Date::~Date(){
 
 }
 	
-void Date::setMonth(string m){
-	Date::month = m
+void Date::setMonth(std::string m){
+	Date::month = m;
 
 }
-void Date::setDay(string d){
+void Date::setDay(std::string d){
 	Date::day = d;
 
 }	
-void Date::setYear(string y){
+void Date::setYear(std::string y){
 	Date::year = y;
 
 }
-void Date::setDate(string date){
+void Date::setDate(std::string date){
 	Date::date = date;
 }
 std::string Date::getMonth(){

@@ -1,10 +1,10 @@
 sim: address.o date.o student.o main.o
-	g++ -g -Wall adress.o date.o student.o main.o -o sim
+	g++ -g -Wall address.o date.o student.o main.o -o sim
 address.o: address.cpp address.h
-	g++ -g -Wall -c horse.cpp
+	g++ -g -Wall -c address.cpp
 date.o: date.cpp date.h
 	g++ -g -Wall -c date.cpp
-student.o: student.cpp student.h date.cpp date.h address.cpp address.h
+student.o: student.cpp student.h date.h address.h
 	g++ -g -Wall -c student.cpp
 main.o: main.cpp student.h date.h address.h
 	g++ -c -Wall main.cpp
