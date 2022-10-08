@@ -52,7 +52,6 @@ int main(){
 	Date *date = new Date[50];
 	
 	
-	std::cout << "work";	
 	while(getline(studentFile, line)){
 		
 		ss.clear();

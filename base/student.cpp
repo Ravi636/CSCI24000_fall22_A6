@@ -97,24 +97,21 @@ Date Student::get_dGrad(){
 
 void Student::fullReport(std::ofstream& full){
 
-	full << "Last Name: " << getlName() << std::endl
-	<< "First Name: " << getfName() << std::endl;
-	full<<"Address: " << get_sAddress1().getAddress1() << std::endl 
-	<< "Address2: " << get_sAddress2().getAddress2() << std::endl 
-	<< "City: "<< get_sCity().getCity() << std::endl
-	<< "State: " << get_sState().getState() << std::endl
-	<< "Zip: "<< get_sZip().getZip() << std::endl
+	full << "*************************" << std::endl
+	<< "Name: " << getlName() << ", " << getfName() << std::endl
+	<<"Address: " << get_sAddress1().getAddress1()<< ", " << get_sAddress2().getAddress2() << ", " << get_sCity().getCity() 
+	<<", " << get_sState().getState() << ", "<< get_sZip().getZip() << std::endl
 	<< "Date of Birth: " << get_dDob().getDate() << std::endl 
-	<< "Date of Completion: " << get_dGrad().getDate() << std::endl
+	<< "Graduation Date: " << get_dGrad().getDate() << std::endl
 	<<"GPA: "<<getGpa() << std::endl
 	<<"Credit Hours Completed: "<<getCredit() << std::endl
-	<< "***************" << std::endl;
+	<< "________________________" << std::endl;
 
 }
 
 void Student::shortReport(std::ofstream& s){
 
-	s << "Last Name: " << getlName() << std::endl << "First Name: " << getfName() << std::endl;
+	s << "Last Name: " << getlName() << ", First Name: " << getfName() << std::endl << "_________________________"<<std::endl;
 
 }
 

@@ -1,600 +1,400 @@
-Last Name: Florence
-First Name: Forrest
-Address: 1843 Glenview Drive
-Address2: 
-City: Corpus Christi
-State: TX
-Zip: 78401
+*************************
+Name: Florence, Forrest
+Address: 1843 Glenview Drive, , Corpus Christi, TX, 78401
 Date of Birth: 5/14/2012
-Date of Completion: 5/14/2012
+Graduation Date: 5/14/2012
 GPA: 3.215
 Credit Hours Completed: 127
-***************
-Last Name: Casey
-First Name: Roberta
-Address: 3668 Thunder Road
-Address2: 
-City: Palo Alto
-State: CA
-Zip: 94306
+________________________
+*************************
+Name: Casey, Roberta
+Address: 3668 Thunder Road, , Palo Alto, CA, 94306
 Date of Birth: 5/14/2014
-Date of Completion: 5/14/2014
+Graduation Date: 5/14/2014
 GPA: 2.978
 Credit Hours Completed: 95
-***************
-Last Name: Koch
-First Name: Sandra
-Address: 2707 Waterview Lane
-Address2: Apt 302
-City: Las Vegas
-State: NM
-Zip: 87701
+________________________
+*************************
+Name: Koch, Sandra
+Address: 2707 Waterview Lane, Apt 302, Las Vegas, NM, 87701
 Date of Birth: 12/14/2015
-Date of Completion: 12/14/2015
+Graduation Date: 12/14/2015
 GPA: 2.546
 Credit Hours Completed: 69
-***************
-Last Name: Dover
-First Name: Darrel
-Address: 845 Dola Mine Road
-Address2: 
-City: Wendell
-State: NC
-Zip: 27591
+________________________
+*************************
+Name: Dover, Darrel
+Address: 845 Dola Mine Road, , Wendell, NC, 27591
 Date of Birth: 5/14/2012
-Date of Completion: 5/14/2012
+Graduation Date: 5/14/2012
 GPA: 3.958
 Credit Hours Completed: 75
-***************
-Last Name: Turner
-First Name: Doris
-Address: 4489 Tully Street
-Address2: Apt B
-City: Detroit
-State: MI
-Zip: 48219
+________________________
+*************************
+Name: Turner, Doris
+Address: 4489 Tully Street, Apt B, Detroit, MI, 48219
 Date of Birth: 5/14/2014
-Date of Completion: 5/14/2014
+Graduation Date: 5/14/2014
 GPA: 2.127
 Credit Hours Completed: 187
-***************
-Last Name: Hernandez
-First Name: Juan
-Address: 2656 Creekside Lane
-Address2: 
-City: Goleta
-State: CA
-Zip: 93117
+________________________
+*************************
+Name: Hernandez, Juan
+Address: 2656 Creekside Lane, , Goleta, CA, 93117
 Date of Birth: 12/14/2015
-Date of Completion: 12/14/2015
+Graduation Date: 12/14/2015
 GPA: 1.598
 Credit Hours Completed: 156
-***************
-Last Name: Moon
-First Name: Sandy
-Address: 1125 Joyce Street
-Address2: 
-City: Mobile
-State: AL
-Zip: 36693
+________________________
+*************************
+Name: Moon, Sandy
+Address: 1125 Joyce Street, , Mobile, AL, 36693
 Date of Birth: 5/14/2012
-Date of Completion: 5/14/2012
+Graduation Date: 5/14/2012
 GPA: 3.995
 Credit Hours Completed: 124
-***************
-Last Name: Reid
-First Name: Andre
-Address: 1225 Gnatty Creek Road
-Address2: 
-City: Westbury
-State: NY
-Zip: 11590
+________________________
+*************************
+Name: Reid, Andre
+Address: 1225 Gnatty Creek Road, , Westbury, NY, 11590
 Date of Birth: 5/14/2014
-Date of Completion: 5/14/2014
+Graduation Date: 5/14/2014
 GPA: 2.985
 Credit Hours Completed: 112
-***************
-Last Name: Cracraft
-First Name: Tara
-Address: 3479 Austin Avenue
-Address2: 
-City: Brunswick
-State: GA
-Zip: 31520
+________________________
+*************************
+Name: Cracraft, Tara
+Address: 3479 Austin Avenue, , Brunswick, GA, 31520
 Date of Birth: 12/14/2015
-Date of Completion: 12/14/2015
+Graduation Date: 12/14/2015
 GPA: 3.256
 Credit Hours Completed: 162
-***************
-Last Name: Valadez
-First Name: Vincent
-Address: 1740 Parkview Drive
-Address2: 
-City: Sugar Land
-State: TX
-Zip: 77478
+________________________
+*************************
+Name: Valadez, Vincent
+Address: 1740 Parkview Drive, , Sugar Land, TX, 77478
 Date of Birth: 5/14/2012
-Date of Completion: 5/14/2012
+Graduation Date: 5/14/2012
 GPA: 3.127
 Credit Hours Completed: 106
-***************
-Last Name: Howard
-First Name: William
-Address: 816 Wayside Lane
-Address2: 
-City: Hayward
-State: CA
-Zip: 94545
+________________________
+*************************
+Name: Howard, William
+Address: 816 Wayside Lane, , Hayward, CA, 94545
 Date of Birth: 5/14/2014
-Date of Completion: 5/14/2014
+Graduation Date: 5/14/2014
 GPA: 3.568
 Credit Hours Completed: 95
-***************
-Last Name: Mills
-First Name: Gary
-Address: 2888 Rowes Lane
-Address2: 
-City: Irvington
-State: KY
-Zip: 40146
+________________________
+*************************
+Name: Mills, Gary
+Address: 2888 Rowes Lane, , Irvington, KY, 40146
 Date of Birth: 12/14/2015
-Date of Completion: 12/14/2015
+Graduation Date: 12/14/2015
 GPA: 3.759
 Credit Hours Completed: 127
-***************
-Last Name: Lett
-First Name: Victoria
-Address: 4250 Pringle Drive
-Address2: 
-City: Chicago
-State: IL
-Zip: 60606
+________________________
+*************************
+Name: Lett, Victoria
+Address: 4250 Pringle Drive, , Chicago, IL, 60606
 Date of Birth: 5/14/2012
-Date of Completion: 5/14/2012
+Graduation Date: 5/14/2012
 GPA: 3.862
 Credit Hours Completed: 95
-***************
-Last Name: Brice
-First Name: William
-Address: 4332 Larry Street
-Address2: Apt 456
-City: New Berlin
-State: WI
-Zip: 53151
+________________________
+*************************
+Name: Brice, William
+Address: 4332 Larry Street, Apt 456, New Berlin, WI, 53151
 Date of Birth: 5/14/2014
-Date of Completion: 5/14/2014
+Graduation Date: 5/14/2014
 GPA: 3.215
 Credit Hours Completed: 69
-***************
-Last Name: Hutchison
-First Name: Craig
-Address: 3704 Green Street
-Address2: 
-City: Nashville
-State: TN
-Zip: 37211
+________________________
+*************************
+Name: Hutchison, Craig
+Address: 3704 Green Street, , Nashville, TN, 37211
 Date of Birth: 12/14/2015
-Date of Completion: 12/14/2015
+Graduation Date: 12/14/2015
 GPA: 2.978
 Credit Hours Completed: 75
-***************
-Last Name: Taylor
-First Name: Danielle
-Address: 4900 Hudson Street
-Address2: 
-City: Haledon
-State: NJ
-Zip: 7508
+________________________
+*************************
+Name: Taylor, Danielle
+Address: 4900 Hudson Street, , Haledon, NJ, 7508
 Date of Birth: 5/14/2012
-Date of Completion: 5/14/2012
+Graduation Date: 5/14/2012
 GPA: 2.546
 Credit Hours Completed: 162
-***************
-Last Name: Gingerich
-First Name: Ermelinda
-Address: 3834 Milford Street
-Address2: Apt F
-City: Sunapee
-State: NH
-Zip: 3782
+________________________
+*************************
+Name: Gingerich, Ermelinda
+Address: 3834 Milford Street, Apt F, Sunapee, NH, 3782
 Date of Birth: 5/14/2014
-Date of Completion: 5/14/2014
+Graduation Date: 5/14/2014
 GPA: 3.958
 Credit Hours Completed: 106
-***************
-Last Name: Moody
-First Name: Derek
-Address: 264 Tetrick Road
-Address2: 
-City: Bowling Green
-State: FL
-Zip: 33834
+________________________
+*************************
+Name: Moody, Derek
+Address: 264 Tetrick Road, , Bowling Green, FL, 33834
 Date of Birth: 12/14/2015
-Date of Completion: 12/14/2015
+Graduation Date: 12/14/2015
 GPA: 2.127
 Credit Hours Completed: 95
-***************
-Last Name: Howell
-First Name: Sonja
-Address: 1093 Olen Thomas Drive
-Address2: P.O. Box 552
-City: Wichita Falls
-State: TX
-Zip: 76301
+________________________
+*************************
+Name: Howell, Sonja
+Address: 1093 Olen Thomas Drive, P.O. Box 552, Wichita Falls, TX, 76301
 Date of Birth: 5/14/2012
-Date of Completion: 5/14/2012
+Graduation Date: 5/14/2012
 GPA: 1.598
 Credit Hours Completed: 124
-***************
-Last Name: Miser
-First Name: Michael
-Address: 1532 South Street
-Address2: 
-City: Midland
-State: TX
-Zip: 79701
+________________________
+*************************
+Name: Miser, Michael
+Address: 1532 South Street, , Midland, TX, 79701
 Date of Birth: 5/14/2014
-Date of Completion: 5/14/2014
+Graduation Date: 5/14/2014
 GPA: 3.995
 Credit Hours Completed: 75
-***************
-Last Name: Davenport
-First Name: Robin
-Address: 4174 Columbia Mine Road
-Address2: 
-City: Wheeling
-State: WV
-Zip: 26003
+________________________
+*************************
+Name: Davenport, Robin
+Address: 4174 Columbia Mine Road, , Wheeling, WV, 26003
 Date of Birth: 12/14/2015
-Date of Completion: 12/14/2015
+Graduation Date: 12/14/2015
 GPA: 2.985
 Credit Hours Completed: 187
-***************
-Last Name: Langley
-First Name: Joycelyn
-Address: 1254 Woodland Drive
-Address2: 
-City: Omaha
-State: NE
-Zip: 68114
+________________________
+*************************
+Name: Langley, Joycelyn
+Address: 1254 Woodland Drive, , Omaha, NE, 68114
 Date of Birth: 5/14/2012
-Date of Completion: 5/14/2012
+Graduation Date: 5/14/2012
 GPA: 3.256
 Credit Hours Completed: 156
-***************
-Last Name: Bryant
-First Name: Ann
-Address: 1334 Progress Way
-Address2: 
-City: Minneapolis
-State: MN
-Zip: 55401
+________________________
+*************************
+Name: Bryant, Ann
+Address: 1334 Progress Way, , Minneapolis, MN, 55401
 Date of Birth: 5/14/2014
-Date of Completion: 5/14/2014
+Graduation Date: 5/14/2014
 GPA: 3.127
 Credit Hours Completed: 124
-***************
-Last Name: Barnett
-First Name: Patrick
-Address: 2432 Warner Street
-Address2: 
-City: Casper
-State: WY
-Zip: 82601
+________________________
+*************************
+Name: Barnett, Patrick
+Address: 2432 Warner Street, , Casper, WY, 82601
 Date of Birth: 12/14/2015
-Date of Completion: 12/14/2015
+Graduation Date: 12/14/2015
 GPA: 3.568
 Credit Hours Completed: 95
-***************
-Last Name: Knepp
-First Name: Christopher
-Address: 1012 Oakmound Road
-Address2: 
-City: Chicago
-State: IL
-Zip: 60623
+________________________
+*************************
+Name: Knepp, Christopher
+Address: 1012 Oakmound Road, , Chicago, IL, 60623
 Date of Birth: 5/14/2012
-Date of Completion: 5/14/2012
+Graduation Date: 5/14/2012
 GPA: 3.759
 Credit Hours Completed: 127
-***************
-Last Name: Canfield
-First Name: Reginald
-Address: 4212 Coal Street
-Address2: 
-City: Somerset
-State: PA
-Zip: 15501
+________________________
+*************************
+Name: Canfield, Reginald
+Address: 4212 Coal Street, , Somerset, PA, 15501
 Date of Birth: 5/14/2014
-Date of Completion: 5/14/2014
+Graduation Date: 5/14/2014
 GPA: 3.862
 Credit Hours Completed: 95
-***************
-Last Name: Lippert
-First Name: Margarita
-Address: 781 Hillcrest Lane
-Address2: 
-City: Fullerton
-State: CA
-Zip: 93632
+________________________
+*************************
+Name: Lippert, Margarita
+Address: 781 Hillcrest Lane, , Fullerton, CA, 93632
 Date of Birth: 12/14/2015
-Date of Completion: 12/14/2015
+Graduation Date: 12/14/2015
 GPA: 1.598
 Credit Hours Completed: 69
-***************
-Last Name: Kist
-First Name: Barbara
-Address: 2103 Mapleview Drive
-Address2: 
-City: Jackson
-State: TN
-Zip: 38301
+________________________
+*************************
+Name: Kist, Barbara
+Address: 2103 Mapleview Drive, , Jackson, TN, 38301
 Date of Birth: 5/14/2012
-Date of Completion: 5/14/2012
+Graduation Date: 5/14/2012
 GPA: 3.995
 Credit Hours Completed: 75
-***************
-Last Name: Waters
-First Name: Ladonna
-Address: 68 Oak Ridge Drive
-Address2: 
-City: Mexico
-State: MO
-Zip: 65265
+________________________
+*************************
+Name: Waters, Ladonna
+Address: 68 Oak Ridge Drive, , Mexico, MO, 65265
 Date of Birth: 5/14/2014
-Date of Completion: 5/14/2014
+Graduation Date: 5/14/2014
 GPA: 2.985
 Credit Hours Completed: 187
-***************
-Last Name: Shepherd
-First Name: Julio
-Address: 2446 Camden Street
-Address2: 
-City: Reno
-State: NV
-Zip: 89502
+________________________
+*************************
+Name: Shepherd, Julio
+Address: 2446 Camden Street, , Reno, NV, 89502
 Date of Birth: 12/14/2015
-Date of Completion: 12/14/2015
+Graduation Date: 12/14/2015
 GPA: 3.256
 Credit Hours Completed: 156
-***************
-Last Name: Hernandez
-First Name: Antonio
-Address: 3232 Fairmont Avenue
-Address2: 
-City: Kansas City
-State: MO
-Zip: 64106
+________________________
+*************************
+Name: Hernandez, Antonio
+Address: 3232 Fairmont Avenue, , Kansas City, MO, 64106
 Date of Birth: 5/14/2012
-Date of Completion: 5/14/2012
+Graduation Date: 5/14/2012
 GPA: 3.127
 Credit Hours Completed: 124
-***************
-Last Name: Ridge
-First Name: Sharon
-Address: 3964 Stoney Lane
-Address2: P.O. Box 549
-City: Dallas
-State: TX
-Zip: 75247
+________________________
+*************************
+Name: Ridge, Sharon
+Address: 3964 Stoney Lane, P.O. Box 549, Dallas, TX, 75247
 Date of Birth: 5/14/2014
-Date of Completion: 5/14/2014
+Graduation Date: 5/14/2014
 GPA: 3.568
 Credit Hours Completed: 112
-***************
-Last Name: Lambert
-First Name: Michael
-Address: 2174 Kyle Street
-Address2: 
-City: Venango
-State: NE
-Zip: 69168
+________________________
+*************************
+Name: Lambert, Michael
+Address: 2174 Kyle Street, , Venango, NE, 69168
 Date of Birth: 12/14/2015
-Date of Completion: 12/14/2015
+Graduation Date: 12/14/2015
 GPA: 3.759
 Credit Hours Completed: 162
-***************
-Last Name: Tapp
-First Name: Michael
-Address: 4569 Shobe Lane
-Address2: 
-City: Greeley
-State: CO
-Zip: 80634
+________________________
+*************************
+Name: Tapp, Michael
+Address: 4569 Shobe Lane, , Greeley, CO, 80634
 Date of Birth: 5/14/2012
-Date of Completion: 5/14/2012
+Graduation Date: 5/14/2012
 GPA: 3.862
 Credit Hours Completed: 106
-***************
-Last Name: Lewis
-First Name: Peggy
-Address: 1601 Hall Valley Drive
-Address2: 
-City: Wheeling
-State: WV
-Zip: 26003
+________________________
+*************************
+Name: Lewis, Peggy
+Address: 1601 Hall Valley Drive, , Wheeling, WV, 26003
 Date of Birth: 5/14/2014
-Date of Completion: 5/14/2014
+Graduation Date: 5/14/2014
 GPA: 1.598
 Credit Hours Completed: 127
-***************
-Last Name: Smith
-First Name: Darren
-Address: 2836 Briarwood Road
-Address2: 
-City: Springfield
-State: MO
-Zip: 65804
+________________________
+*************************
+Name: Smith, Darren
+Address: 2836 Briarwood Road, , Springfield, MO, 65804
 Date of Birth: 12/14/2015
-Date of Completion: 12/14/2015
+Graduation Date: 12/14/2015
 GPA: 3.995
 Credit Hours Completed: 95
-***************
-Last Name: Adair
-First Name: Jeffrey
-Address: 4478 Hillside Street
-Address2: 
-City: Phoenix
-State: AZ
-Zip: 85016
+________________________
+*************************
+Name: Adair, Jeffrey
+Address: 4478 Hillside Street, , Phoenix, AZ, 85016
 Date of Birth: 5/14/2012
-Date of Completion: 5/14/2012
+Graduation Date: 5/14/2012
 GPA: 2.985
 Credit Hours Completed: 69
-***************
-Last Name: Greene
-First Name: Eric
-Address: 569 Pine Garden Lane
-Address2: 
-City: Norcross
-State: GA
-Zip: 30091
+________________________
+*************************
+Name: Greene, Eric
+Address: 569 Pine Garden Lane, , Norcross, GA, 30091
 Date of Birth: 5/14/2014
-Date of Completion: 5/14/2014
+Graduation Date: 5/14/2014
 GPA: 3.256
 Credit Hours Completed: 75
-***************
-Last Name: Gilham
-First Name: Mike
-Address: 3543 Ventura Drive
-Address2: Apt H
-City: Marina
-State: CA
-Zip: 93933
+________________________
+*************************
+Name: Gilham, Mike
+Address: 3543 Ventura Drive, Apt H, Marina, CA, 93933
 Date of Birth: 12/14/2015
-Date of Completion: 12/14/2015
+Graduation Date: 12/14/2015
 GPA: 2.546
 Credit Hours Completed: 162
-***************
-Last Name: Dorsey
-First Name: Tammy
-Address: 2111 Liberty Avenue
-Address2: 
-City: Los Angeles
-State: CA
-Zip: 90017
+________________________
+*************************
+Name: Dorsey, Tammy
+Address: 2111 Liberty Avenue, , Los Angeles, CA, 90017
 Date of Birth: 5/14/2012
-Date of Completion: 5/14/2012
+Graduation Date: 5/14/2012
 GPA: 3.958
 Credit Hours Completed: 106
-***************
-Last Name: Lewis
-First Name: Robert
-Address: 2253 Brannon Avenue
-Address2: 
-City: Jacksonville
-State: FL
-Zip: 32216
+________________________
+*************************
+Name: Lewis, Robert
+Address: 2253 Brannon Avenue, , Jacksonville, FL, 32216
 Date of Birth: 5/14/2014
-Date of Completion: 5/14/2014
+Graduation Date: 5/14/2014
 GPA: 2.127
 Credit Hours Completed: 95
-***************
-Last Name: Petitt
-First Name: Craig
-Address: 2397 My Drive
-Address2: 
-City: Garden City
-State: NY
-Zip: 11530
+________________________
+*************************
+Name: Petitt, Craig
+Address: 2397 My Drive, , Garden City, NY, 11530
 Date of Birth: 12/14/2015
-Date of Completion: 12/14/2015
+Graduation Date: 12/14/2015
 GPA: 1.598
 Credit Hours Completed: 124
-***************
-Last Name: Quarles
-First Name: Helen
-Address: 98 Mount Tabor
-Address2: 
-City: New York
-State: NY
-Zip: 10013
+________________________
+*************************
+Name: Quarles, Helen
+Address: 98 Mount Tabor, , New York, NY, 10013
 Date of Birth: 5/14/2012
-Date of Completion: 5/14/2012
+Graduation Date: 5/14/2012
 GPA: 3.995
 Credit Hours Completed: 75
-***************
-Last Name: Frey
-First Name: Catherine
-Address: 1504 Shobe Lane
-Address2: 
-City: Loveland
-State: CO
-Zip: 80537
+________________________
+*************************
+Name: Frey, Catherine
+Address: 1504 Shobe Lane, , Loveland, CO, 80537
 Date of Birth: 5/14/2014
-Date of Completion: 5/14/2014
+Graduation Date: 5/14/2014
 GPA: 2.985
 Credit Hours Completed: 69
-***************
-Last Name: Ortiz
-First Name: Sophie
-Address: 977 Seltice Way
-Address2: Apt 56
-City: Boise
-State: ID
-Zip: 83704
+________________________
+*************************
+Name: Ortiz, Sophie
+Address: 977 Seltice Way, Apt 56, Boise, ID, 83704
 Date of Birth: 12/14/2015
-Date of Completion: 12/14/2015
+Graduation Date: 12/14/2015
 GPA: 3.256
 Credit Hours Completed: 75
-***************
-Last Name: McAbee
-First Name: Michael
-Address: 959 Hall Street
-Address2: 
-City: Las Vegas
-State: NV
-Zip: 89119
+________________________
+*************************
+Name: McAbee, Michael
+Address: 959 Hall Street, , Las Vegas, NV, 89119
 Date of Birth: 5/14/2012
-Date of Completion: 5/14/2012
+Graduation Date: 5/14/2012
 GPA: 3.127
 Credit Hours Completed: 187
-***************
-Last Name: Herrera
-First Name: David
-Address: 3084 Hart Country Lane
-Address2: 
-City: Norcross
-State: GA
-Zip: 30093
+________________________
+*************************
+Name: Herrera, David
+Address: 3084 Hart Country Lane, , Norcross, GA, 30093
 Date of Birth: 5/14/2014
-Date of Completion: 5/14/2014
+Graduation Date: 5/14/2014
 GPA: 2.127
 Credit Hours Completed: 156
-***************
-Last Name: Parry
-First Name: Paul
-Address: 3425 Valley Street
-Address2: 
-City: Vineland
-State: NJ
-Zip: 8360
+________________________
+*************************
+Name: Parry, Paul
+Address: 3425 Valley Street, , Vineland, NJ, 8360
 Date of Birth: 12/14/2015
-Date of Completion: 12/14/2015
+Graduation Date: 12/14/2015
 GPA: 1.598
 Credit Hours Completed: 124
-***************
-Last Name: Carter
-First Name: Lisa
-Address: 1809 Oak Ridge Drive
-Address2: 
-City: Rolla
-State: MO
-Zip: 65401
+________________________
+*************************
+Name: Carter, Lisa
+Address: 1809 Oak Ridge Drive, , Rolla, MO, 65401
 Date of Birth: 5/14/2012
-Date of Completion: 5/14/2012
+Graduation Date: 5/14/2012
 GPA: 3.995
 Credit Hours Completed: 112
-***************
-Last Name: Barbee
-First Name: James
-Address: 4756 Mapleview Drive
-Address2: 
-City: Ripley
-State: TN
-Zip: 38063
+________________________
+*************************
+Name: Barbee, James
+Address: 4756 Mapleview Drive, , Ripley, TN, 38063
 Date of Birth: 5/14/2014
-Date of Completion: 5/14/2014
+Graduation Date: 5/14/2014
 GPA: 2.985
 Credit Hours Completed: 162
-***************
+________________________
