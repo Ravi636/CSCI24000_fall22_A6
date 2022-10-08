@@ -34,16 +34,39 @@ string zip method that returns zip's value stored in the class
 Private variables to store student's first & last name, gpa, credit hours.
 Private Address objects to store the object that contains student's address1, address2, city, state, and zip
 Privare Date objects to store the object that contains student's date of birth and date of graduation
+
 Student constructor to set class variables to default values, which are empty
 Student deconstructor to delete data stored in the heap 
+
 void first name method with string parameter that sets first name's value to the parameter's value.
 void last name method with string parameter that sets last name's value to the parameter's value.
 void gpa  method with string parameter that sets gpa's value to the parameter's value.
 void credit hours  method with string parameter that sets credit hour's value to the parameter's value.
 
+string first name method that returns first name value stored in the class
+string last name method that returns last name value stored in the class
+string gpa method that returns gpa value stored in the class
+string credit hours method that returns credit hours value stored in the class
 
+void address1 method with Address parameter that set address1 object to the parameters's object.
+void address2 method with Address parameter that set address2 object to the parameters's object.
+void city method with Address parameter that set city object to the parameters's object.
+void state method with Address parameter that set state object to the parameters's object.
+void zip method with Address parameter that set zip object to the parameters's object.
 
+void dob method with Date parameter that set dob object to the parameters's object.
+void graduation method with Date parameter that set grad date object to the parameters's object.
 
+getaddress1 method with Address return datatype that return address1 object.
+getaddress2 method with Address return datatype that return address2 object.
+getcity method with Address return datatype that return city object.
+getstate method with Address return datatype that return state object.
+getzip method with Address return datatype that return zip object.
 
+getDob method with Date return datatype that return dob object.
+getGraduation method with Date return datatype that return grad date object.
+
+void fullreport method with ofstream parameter and sends all of the student's data to the ofstream file
+void shortreport method with ofstream parameter and sends  student's names to the ofstream file
 
 
