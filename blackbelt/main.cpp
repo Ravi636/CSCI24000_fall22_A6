@@ -8,6 +8,10 @@
 #include "address.h"
 #include "date.h"
 
+
+void change(Student *, Student *);
+
+
 int main(){
 	
 	int x = 0;
@@ -101,6 +105,7 @@ int main(){
 	int done = 0;
 	int report = 0;
 	while(done == 0){
+		std::cout << "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"<< std::endl;
 		std::cout << "How would you like to see the students report!" << std::endl;
 		std::cout << "Enter 1: full report" << std::endl;
 		std::cout << "Enter 2: short report" << std::endl;
@@ -108,13 +113,122 @@ int main(){
 		std::cout << "Enter 4: alphabatized by First Name report" << std::endl;
 		std::cout << "Enter 5: sorted by highest GPA report" << std::endl;
 		std::cout << "Enter 6: alphabatized by State report" << std::endl;
-		std::cout << "Enter 7: sorted by highest Credit hours report" << std::endl;
+		std::cout << "Enter 7: sorted by highest DOB by year report" << std::endl;
+		std::cout << "Enter 8: search students by their first name" << std::endl;
+		std::cout << "Enter 9: search students by their Gpa" << std::endl;
 		std::cout << "Enter 0: End sim " << std::endl;
 		
-		for(int x = 0; x < 50; x++){
-			stu[x].fullReport(fullFile);
-			stu[x].shortReport(shortFile);
+		std::cin >> report;
+		if (report == 1){
+		}
+		else if (report == 2){
+			for(int x = 0; x < 50; x++){
+				stu[x].shortReport(shortFile);
+			}
+		}
+		else if (report == 3){
+			for(int x = 0; x < 49; x++){
+				for(int cur = 0; cur < 49; cur++){
+					if(stu[cur].getlName().compare(stu[cur+1].getlName()) > 0){
+						change(stu + cur , stu + cur + 1);
+					}
+				}
+			}
+		
+		}
+		else if (report == 4){
+			for(int x = 0; x < 49; x++){
+				for(int cur = 0; cur < 49; cur++){
+					if(stu[cur].getfName().compare(stu[cur+1].getfName()) > 0){
+						change(stu + cur, stu + cur + 1);
+					}
+				}
+			}
+		
+		}
+		else if (report == 5){
+			for(int x = 0; x < 49; x++){
+				for(int cur = 0; cur < 49; cur++){
+					if(stu[cur].getGpa().compare(stu[cur+1].getGpa()) > 0){
+						change(stu + cur, stu + cur + 1);
+					}
+				}
+			}
+		
+		}
+		else if (report == 6){
+			for(int x = 0; x < 49; x++){
+				for(int cur = 0; cur < 49; cur++){
+					if(stu[cur].get_sState().getState().compare(stu[cur+1].get_sState().getState()) > 0){
+						change(stu + cur, stu + cur + 1);
+					}
+				}
+			}
+		
+		}
+		else if (report == 7){
+			for(int x = 0; x < 49; x++){
+				for(int cur = 0; cur < 49; cur++){
+					if(stu[cur].get_dDob().getYear().compare(stu[cur+1].get_dDob().getYear()) > 0){
+						change(stu + cur, stu + cur + 1);
+					}
+				}
+			}
+		
+		}
+		else if (report == 8){
+			std::string text = "";
+			std::cout << "Enter student's first name you want to search:";
+			std::cin >> text;
+			for(int x = 0; x < 50; x++){
+				if(stu[x].getfName().compare(text) == 0){
+
+					std::cout << "Last Name: " << stu[x].getlName() << std::endl
+					<< "First Name: " << stu[x].getfName() << std::endl
+					<<"Address: " << stu[x].get_sAddress1().getAddress1() << std::endl 
+					<< "Address2: " << stu[x].get_sAddress2().getAddress2() << std::endl 
+					<< "City: "<< stu[x].get_sCity().getCity() << std::endl
+					<< "State: " << stu[x].get_sState().getState() << std::endl
+					<< "Zip: "<< stu[x].get_sZip().getZip() << std::endl
+					<< "Date of Birth: " << stu[x].get_dDob().getDate() << std::endl 
+					<< "Graduation Date: " << stu[x].get_dGrad().getDate() << std::endl
+					<<"GPA: "<<stu[x].getGpa() << std::endl
+					<<"Credit Hours: "<<stu[x].getCredit() << std::endl
+					<< "________________________" << std::endl;
+
+				}
+			}
+		}
+		else if (report == 9){
+			std::string text = "";
+			std::cout << "Enter student's Gpa you want to search:";
+			std::cin >> text;
+			for(int x = 0; x < 50; x++){
+				if(stu[x].getGpa().compare(text) == 0){
+
+					std::cout << "Last Name: " << stu[x].getlName() << std::endl
+					<< "First Name: " << stu[x].getfName() << std::endl
+					<<"Address: " << stu[x].get_sAddress1().getAddress1() << std::endl 
+					<< "Address2: " << stu[x].get_sAddress2().getAddress2() << std::endl 
+					<< "City: "<< stu[x].get_sCity().getCity() << std::endl
+					<< "State: " << stu[x].get_sState().getState() << std::endl
+					<< "Zip: "<< stu[x].get_sZip().getZip() << std::endl
+					<< "Date of Birth: " << stu[x].get_dDob().getDate() << std::endl 
+					<< "Graduation Date: " << stu[x].get_dGrad().getDate() << std::endl
+					<<"GPA: "<<stu[x].getGpa() << std::endl
+					<<"Credit Hours: "<<stu[x].getCredit() << std::endl
+					<< "________________________" << std::endl;
+
+				}
+			}
+		}
+
+		else if (report == 0){
 			done++;
+		}
+
+		for(int y = 0; y < 50; y++){
+			stu[y].fullReport(fullFile);
 		}
 
 		if(done > 0){
@@ -133,5 +247,11 @@ int main(){
 	return 0;
 	
 }//end main
+void change (Student *a, Student *b){
+	Student c;
+	c = *a;
+	*a = *b;
+	*b = c;
+}
 
 
